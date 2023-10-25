@@ -1,0 +1,15 @@
+export interface PasteFormDto {
+    handleForm: any,
+    title : any,
+    setTitle : any,
+    paste : any,
+    setPaste : any,
+    handleOptional : any,
+    optional: any,
+    description : any,
+    setDescription : any,
+    pastePassword : any,
+    setPastePassword : any,
+    tags : any,
+    setTags : any,
+}
