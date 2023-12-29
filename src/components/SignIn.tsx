@@ -10,8 +10,8 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 function SignIn() {
-    const [email, setEmail] = useState('diego@diego.com');
-    const [password, setPassword] = useState('diegodiego1!');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
     
     const navigate = useNavigate();
     const dispatch = useDispatch();
